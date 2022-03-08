@@ -1,0 +1,187 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+html,
+.body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ebebeb;
+}
+
+header {
+  background-color: #eac926;
+  
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #ebebeb;
+  text-align: center;
+}
+
+.cuerpos {
+  font-size: 15px;
+  text-align: left;
+}
+.titulares {
+  font-size: 25px;
+  color: #03264c;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.precios {
+  font-size: 20px;
+  color: #666;
+  /* text-align: left; */
+  bottom: 15px;
+  margin-left: 20px;
+  /* box-sizing: content-box; */
+  font-weight: 700;
+  min-width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.nombre {
+  font-size: 20px;
+  color: #666;
+  text-align: left;
+  font-weight: 700;
+  width: 100%;
+  margin-left: 20px;
+  padding-bottom: 16px;
+  padding-top: 5px;
+}
+
+.descuentos {
+  font-size: 16px;
+  color: #39b54a;
+  font-weight: 700;
+  max-width: 70%;
+  display: flex;
+  justify-content: center;
+  /* position: absolute; */
+  /* right: 520px;
+ top: 3px; */
+  /* box-sizing: content-box; */
+}
+
+.descripciones {
+  background-color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+/* .descripciones img {
+    height: 50px;
+    width:  50px;
+    
+} */
+
+.burger-menu {
+  width: 25px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #1259c3;
+  color: white;
+  padding: 5px 5px 5px 5px;
+  border-radius: 20%;
+  margin: 0 auto;
+  padding: 5px;
+}
+.center {
+  text-align: center;
+  font-size: 15px;
+}
+.padding10 {
+  padding: 3px;
+}
+nav ul li {
+  list-style: none;
+}
+
+.text-direction {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+}
+
+.lista {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.botonEnviar {
+  display: flex;
+  font-size: larger;
+  color: #03264c;
+  margin: 30px;
+}
+
+.linea {
+  display: block black;
+}
+
+.nombre2 {
+  font-size: 20px;
+  color: #666;
+  text-align: left;
+  font-weight:700;
+  width: 100%;
+  /*margin-left: 20px;*/
+  padding-bottom: 16px;
+  /*padding-top: 5px;*/
+}
+.nombre3 {
+  font-size: 25px;
+  color: #666;
+  text-align:center;
+  font-weight:700;
+  width: 95%;
+  /*margin-left: 20px;*/
+  padding-bottom: 16px;
+  /*padding-top: 5px;*/
+}
+
+.rota:hover{
+        transition: transform 0.5s;
+        transform: rotate(-90deg);
+}
+
+.botonEnviar:hover {
+    background-color: #0022AA;
+    transition: all 0.5s;
+}
+
+.buscar input[type=text]{
+        width:300px;
+        height:25px;
+        border-radius:25px;
+        border: 10px blue;
+        /* margin-bottom:  */;
+        position: relative;
+        margin-left: 5%;
+    }
+          
+    .buscar{
+        float:center;
+        margin:7px;
+    }
+          
+    .buscarB {
+        color: #f2f2f2;
+        float: right;
+        padding: 5px 10px;
+        margin-right: 16px;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+    } 
+

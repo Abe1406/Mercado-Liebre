@@ -1,0 +1,21 @@
+@media (min-width: 768px) {
+  .lista-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  .clase-ul {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+  }
+  .burger-menu {
+    display: none;
+  }
+  .articulo {
+    flex: 2;
+  }
+}
+.nombre{
+    display: flex;
+}

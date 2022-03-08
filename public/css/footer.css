@@ -1,0 +1,45 @@
+ 
+ .flex-container{
+     display: flex;
+     border: 1px white;
+     padding: 20px;
+     flex-direction: row;
+     flex-wrap: wrap;
+     margin: 0 auto;
+     align-items:flex-start;
+     justify-content: center;
+     }
+    .caja{
+    border: 15px;
+    width: 300px;
+    text-align: justify;
+    margin: 50px;
+   
+}
+    .iconito:hover {
+    background-color: #acf808;
+    transition: all 0.5s;
+}
+
+    .descripciones-footer {
+  background-color: white;
+  color: #1259c3;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.separacion{
+  color: #1259c3;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.separacion2 .fa-gift{
+  color: #1259c3;
+  font-size: 50px;
+  text-align: justify;
+  margin-top: 10px;
+}

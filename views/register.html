@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mercado Liebre</title>
+    <link rel="stylesheet" href="/css/themes.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/tablet.css" />
+    <link rel="stylesheet" href="/css/footer.css"/>
+    <link rel="stylesheet" href="/css/escritorio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  </head>
+
+        <header class="nombre2"><a href="/home">
+      <h1 class="logow"><img src="/images/logo-mercado-liebre.svg" alt="Logo" width = "50%"/></h1></a>
+      <div class= "buscar input buscar buscarB">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Buscar productos, marcas..." required>
+      </div>
+      
+      <div class="center nombre3">Comprá en cuotas y sin tarjeta de crédito<i class="fas fa-hand-holding-usd"></i>
+      </div>      
+      
+      <nav class="lista-menu">
+        <ul class="clase-ul">
+          <li><a href="#">Ofertas</a></li>
+          <li><a href="#">Tiendas Oficiales</a></li>
+          <li><a href="#">Vender</a></li>
+          <li><a href="#">Ayuda</a></li>
+        </ul>
+
+        <ul class="clase-ul">
+          <li><a href="/register">Crear Tu Cuenta<i class="far fa-id-card"></i></a></li>
+          <li><a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+          <li><a href="#">Mis Compras<i class="fas fa-shopping-cart"></i></a>
+          </li>
+        </ul>
+        </nav>
+         <div class="burger-menu"><i class="fas fa-bars"></i>
+         </div>
+    </header>
+    
+    <body class="nombre2">
+      <form action="register.html" method="POST">
+        <div>
+        <label>Nombre:</label>
+        <input type="text" name="nombre" required/>
+        </div>
+        <div>
+        <label>Nombre de Usuario:</label>
+        <input type="text" name="nombre" required/>
+        </div>
+
+        <div>
+            <label>Apellido:</label>
+         <input type="text" name="nombre" required />
+        </div>
+
+        <div>
+            <label>Fecha de Nacimiento:</label>
+            <input type="date" name="FechaNacimiento" />
+        </div>
+
+        <div>
+         <label>Domicilio:</label>
+         <input type="text" name="nombre" required />
+        </div>
+
+        <div>
+          <label class="linea">Estás:</label>
+          <label>
+          <input type="checkbox" name="estado" value="Comprando" /> Comprando       
+          </label>  
+          <label>
+          <input type="checkbox" name="estado" value="Vendiendo" /> Vendiendo
+          </label>
+        </div>
+
+        <div>
+         ¿Cuáles son tus intereses?
+         <ul class="ul listaR"><label>
+         <li><input type="checkbox" name="interés" value="Electro"/> Electro</li></label>
+         <label>
+         <li><input type="checkbox" name="interés" value="Moda" /> Moda</li></label>
+         <label>
+         <li><input type="checkbox" name="interés" value="Hogar"/> Hogar</li></label>
+         <label>
+         <li><input type="checkbox" name="interés" value="Juguetería"/>Juguetería</li></label>
+         <label>
+         <li> <input type="checkbox" name="interés" value="Vida Sana" /> Vida Sana</label></li>
+         </ul>
+        </div>
+
+        <div>
+        Agregá una foto de perfil:
+        <input type="file" name="imagenDePerfil" accept=".jpg, .png "/>
+        </div>
+        <div>
+        <label>Contraseña:</label>
+        <input type="password" name="password" required />
+        </div>
+        <div>
+        <label> Confirmar contraseña:</label>
+        <input type="password" name="password" required />
+        <input class="botonEnviar" type="submit" value="Enviar">
+        </div>
+      </form>
+    </body>
+    
+<footer class="descripciones-footer">
+     <section>        
+        <div class="flex-container">
+         <div class="caja flex-container">
+             <i class="fas fa-credit-card iconito"></i>
+            <strong>Pagá con tarjeta o en efectivo</strong>
+            <p class="separacion">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+         </div>
+
+         <div class="caja flex-container"> 
+            <i class="fas fa-gift iconito"></i>
+            <strong>Envío gratis desde $ 2.500</strong>
+           <p class="separacion"> Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
+         </div>
+        
+         <div class="caja flex-container">
+            <i class="fas fa-user-shield iconito"></i>
+            <strong>Seguridad, de principio a fin</strong>
+             <p class="separacion">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
+         </div>
+        </div>
+        <p>Copyright © 1999-2020 MercadoLiebre S.R.L</p>
+    </section>
+</footer>
+</html>

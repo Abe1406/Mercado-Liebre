@@ -1,0 +1,31 @@
+@media (min-width: 1024px) {
+  .lista-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  .clase-ul {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+  }
+  .burger-menu {
+    display: none;
+  }
+  .articulo {
+    flex: 4;
+  }
+}
+.nombre{
+display: none;
+}
+.nombre:hover {
+   display: block;
+   transition: all 0.5s;
+}
+.nombre:hover .description{
+    display: block;
+}
+.articulo:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
