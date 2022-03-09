@@ -9,6 +9,7 @@
     justify-content: space-between;
     width: 45%;
   }
+  
   .burger-menu {
     display: none;
   }
@@ -17,5 +18,5 @@
   }
 }
 .nombre{
-    display: flex;
+    display: inline-block;
 }

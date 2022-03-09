@@ -19,13 +19,11 @@
 .nombre{
 display: none;
 }
-.nombre:hover {
-   display: block;
-   transition: all 0.5s;
-}
-.nombre:hover .description{
+
+.articulo:hover .nombre{
     display: block;
 }
+
 .articulo:hover{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
