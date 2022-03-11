@@ -133,7 +133,7 @@ nav ul li {
 .nombre2 {
   font-size: 20px;
   color: #666;
-  text-align: left;
+  text-align: right;
   font-weight:700;
   width: 100%;
   /*margin-left: 20px;*/
@@ -143,10 +143,10 @@ nav ul li {
 .nombre3 {
   font-size: 25px;
   color: #666;
-  text-align:center;
+  text-align:right;
   font-weight:700;
   width: 95%;
-  /*margin-left: 20px;*/
+  margin-left: 20px;
   padding-bottom: 16px;
   /*padding-top: 5px;*/
 }
@@ -172,7 +172,7 @@ nav ul li {
     }
           
     .buscar{
-        float:center;
+        float:left;
         margin:7px;
     }
           
@@ -185,9 +185,46 @@ nav ul li {
         border: none;
         cursor: pointer;
     } 
-   .mover{
-     margin-left:30%;
-     position:sticky;
-     font-size: 26px;
-     margin-bottom:;
+
+/*nuevo header
+*/
+
+.encabezado {
+    background-color: #eac926;
+    height: 150px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eac926;
+    }
+
+.encabezadoMenu {
+        display: flex;
+        list-style: none;
+        margin-right: 30px;
+    }
+.encabezadoMenu li {
+    border-radius: 3px;
+    margin: 0 5px;
 }
+ .encabezadoMenu li a {
+     padding:7px 13px;
+     text-decoration: none;
+     font-size: 15px;
+     display: block;
+     text-transform: uppercase;
+     color: #0022AA;
+ }
+
+.encabezadoBurger {
+  width: 25px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #1259c3;
+  color: white;
+  padding: 5px 5px 5px 5px;
+  border-radius: 20%;
+  margin: 0 auto;
+  padding: 5px;
+  }
